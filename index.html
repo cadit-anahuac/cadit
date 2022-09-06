@@ -20,6 +20,19 @@
     <link rel="stylesheet" type="text/css" href="https://cadit-anahuac.github.io/intranet.css" media="screen" />
 
 </head>
+    <!-- JavaScript -->
+<script>
+  // Si se presiona la 'x' en la tarjeta, esta se desvanece.
+  function closeCard(){
+    document.getElementById("contacto").classList.add("fadeOut");
+  }
+
+  //Después de 45 segundos, la tarjeta se desvanece sola.
+  window.setTimeout(function() {
+    document.getElementById("contacto").classList.add("fadeOut");
+  }, 45000);
+
+</script>
 
 <!-- Cuerpo -->
   <body>
